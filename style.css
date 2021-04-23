@@ -1,0 +1,53 @@
+.userCard {
+    display: block;
+    width: 32rem;
+    color: black;
+    font-family: sans-serif;
+    line-height: .75;
+    margin: 0 auto;
+}
+
+.userCardTop {
+    background-color: cadetblue;
+    display: block;
+    height: 4rem;
+    overflow: visible;
+}
+
+.userCardIcon {
+    background-color: white;
+    height: 5rem;
+    width: 5rem;
+    position: absolute;
+    top: 1.5rem;
+    left: 20rem;
+    border: 2px solid lightgray;
+    border-radius: 50%;
+}
+
+.userCardBottom {
+    background-color: white;
+    padding-left: 2rem;
+    border: 2px solid lightgray;
+    border-top: none;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 3.5rem;
+}
+
+.editProfile {
+    padding-bottom: 1rem;
+}
+
+.editProfileIcon {
+    height: 1rem;
+    display: inline-block;
+}
+
+.editProfile a {
+    display: inline-block;
+    padding-left: .25rem;
+    vertical-align: text-top;
+}
